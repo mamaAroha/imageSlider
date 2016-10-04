@@ -1,9 +1,13 @@
 @media screen and (max-width: 720px) {
-  img {
-    width: 76%;
-    margin-left:auto;
-    margin-right:auto;
-  }
+    img {
+        width: 76%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carousel-indicators {
+      display: none;
+    }
 }
 
 body {
@@ -11,32 +15,41 @@ body {
     background: black;
 }
 
+.navbar-brand {
+  font-family: cursive;
+}
+
 .item {
-  max-height: 92vh;
+    max-height: 80vh;
 }
 
 .container {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .backing {
-  /*background: url(mamaAroha-background.jpg) no-repeat center;*/
-  background-size: cover;
+    background: url(mamaAroha-background.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .carousel-inner>.item {
-  width: 100%;
+    width: 100%;
 }
 
 .carousel-indicators li {
-  display: inline-block;
-    width: 10px;
-    height: 10px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
     background-color: #000\9;
-    background-color: blue;
-    border: 1px solid #fff;
-    border-radius: 10px;
+    background-color: #007FF0;
+    /*border: 1px solid #fff;*/
+    border: 0px;
+    border-radius: 8px;
+}
+
+.carousel-indicators {
+  bottom:-10px;
 }
