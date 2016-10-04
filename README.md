@@ -1,2 +1,2 @@
 # imageSlider
-simple html
+simple html, css & javascript carosel
