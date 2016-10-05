@@ -53,3 +53,9 @@ body {
 .carousel-indicators {
   bottom:-10px;
 }
+
+#qrcode {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
