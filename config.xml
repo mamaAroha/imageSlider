@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "nz.co.mamaaroha"
     versionCode = "1"
-    version     = "1.0.0" >
+    version     = "1.0.1" >
    <name>mamaAroha</name>
     <description>
             Breastfeeding Principles Talking Cards
@@ -15,8 +15,8 @@
     <platform name="ios"/>
     <platform name="android"/>
     <platform name="winphone"/>
-    <preference name="phonegap-version" value="cli-6.1.0" />
-    <preference name="orientation" value="land" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
+    <preference name="orientation" value="landscape" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
@@ -33,7 +33,7 @@
     <preference name="StatusBarStyle" value="default" />
 
     <!-- These settings for Android. Additional android setting can be found at cordova website. http://cordova.apache.org - look in the docs, then in the android configurations.  -->
-    <preference name="android-minSdkVersion" value="21" />
+    <preference name="android-minSdkVersion" value="23" />
     <preference name="android-installLocation" value="auto" />
 
     <!-- iOS requires 16 DIFFERENT icons to uspport all current devices -->
@@ -58,12 +58,12 @@
 
       <!-- for android you only need to define icons for each of the 6 DIFFERENT screen densities. -->
        <platform name="android">
-        <icon src="res/icon/android/drawable-ldpi-icon" qualifier="ldpi"/>
-        <icon src="res/icon/android/drawable-mdpi-icon" qualifier="mdpi"/>
-        <icon src="res/icon/android/drawable-hdpi-icon" qualifier="hdpi"/>
-        <icon src="res/icon/android/drawable-xhdpi-icon" qualifier="xhdpi"/>
-        <icon src="res/icon/android/drawable-xxhdpi-icon" qualifier="xxhdpi"/>
-        <icon src="res/icon/android/drawable-xxxhdpi-icon" qualifier="xxxhdpi"/>
+        <icon src="res/icon/android/drawable-ldpi-icon.png" qualifier="ldpi"/>
+        <icon src="res/icon/android/drawable-mdpi-icon.png" qualifier="mdpi"/>
+        <icon src="res/icon/android/drawable-hdpi-icon.png" qualifier="hdpi"/>
+        <icon src="res/icon/android/drawable-xhdpi-icon.png" qualifier="xhdpi"/>
+        <icon src="res/icon/android/drawable-xxhdpi-icon.png" qualifier="xxhdpi"/>
+        <icon src="res/icon/android/drawable-xxxhdpi-icon.png" qualifier="xxxhdpi"/>
       </platform>
 
       <!-- iOS settings for the splash-screen that displays while the app is loading. These need to be defined for all the screen sizes. Depending on if your app, you may need portrait and landscape orientations. Below we have only the portrait orientations-->
@@ -121,4 +121,3 @@
       </platform>
 
 </widget>
-get>
