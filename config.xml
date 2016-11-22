@@ -3,7 +3,11 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "nz.co.mamaaroha"
     versionCode = "1"
+<<<<<<< HEAD
     version     = "1.0.3" >
+=======
+    version     = "1.0.2" >
+>>>>>>> 51646231012fc49f4e0c7ec94d66a54bb482088e
    <name>mamaAroha</name>
     <description>
             Breastfeeding Principles Talking Cards
