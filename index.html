@@ -11,12 +11,14 @@
 
     <title>Breastfeeding Principles</title>
 
+    <!-- Link Swiper's CSS -->
+    <link href="css/swiper.min.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/full-slider.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -351,17 +353,29 @@
 
     </div>
 
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        zoom: true,
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
+    </script>
+
     <!-- Script for running QR code reader -->
     <script src="js/app.js"></script>
     <script src="barcodescanner.js"></script>
-    
+
     <!-- phoneGap -->
     <script src="phonegap.js"></script>
 
